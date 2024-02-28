@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: bisque;
+    width: 250px;
+    border-radius: 5%;
+    padding-top: 10px;
+}
+.normalbtnCss{
+    color: white;
+    border-radius: 50%;
+    background-color: rgb(216, 27, 13);;
+    text-align: center;
+    width: 35px;
+    margin: 10px;
+}
+.charCss{
+    color: rgb(216, 27, 13);
+    width: 35px;
+    margin: 10px;
+}
+.equaltoCss{
+    color: white;
+    background-color: rgb(216, 27, 13);;
+    width: 100px;
+}
+.inputmaindiv{
+    display: flex;
+    flex-direction: column;
+}
+.outputmaindiv{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+}
+.inputNum{
+    text-align: right;
+    color: white;
+    background-color: skyblue;
+    font-size: 20px;
+    overflow: scroll;
+}
+.outputcss{
+    background-color: silver;
+    text-align: right;
+    color: red;
+    font-size: 22px;
+}
+.title{
+    text-align: center;
+    font-size: 12px;
+}
